@@ -10,14 +10,16 @@ if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
 }
 
 $configPath = dirname(__DIR__) . '/config.php';
-if (!file_exists($configPath)) {
-  http_response_code(500);
-  header('Content-Type: application/json');
-  echo json_encode(['success' => false, 'message' => 'config.php not found. Copy config.example.php to config.php']);
-  exit;
+if (file_exists($configPath)) {
+  $config = require $configPath;
+} else {
+  $config = [
+    'merchant_key'  => getenv('PAYU_MERCHANT_KEY')  ?: '',
+    'merchant_salt' => getenv('PAYU_MERCHANT_SALT') ?: '',
+    'environment'   => getenv('PAYU_ENV')            ?: 'test',
+    'base_url'      => getenv('PAYU_BASE_URL')       ?: '',
+  ];
 }
-
-$config = require $configPath;
 require_once __DIR__ . '/PayUHash.php';
 require_once __DIR__ . '/PayUClient.php';
 
