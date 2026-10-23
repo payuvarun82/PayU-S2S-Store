@@ -1,0 +1,72 @@
+#,"Bank name","PayU bankcode",Mode,Status
+1,"Airtel Payments Bank",AIRNB,NB,Active
+2,"Andhra Bank",ADBB,NB,Active
+3,"AU Small Finance Bank",AUSFNB,NB,Active
+4,"AXIS Bank",AXIB,NB,Active
+5,"Bandhan Bank",BANDNB,NB,Active
+6,"Bank of Bahrain & Kuwait",BBKB,NB,Active
+7,"Bank of Baroda",BBRB,NB,Active
+8,"Bank of India",BOIB,NB,Active
+9,"Bank of Maharashtra",BOMB,NB,Active
+10,"Bhartiya Mahila Bank",BMNN,NB,Active
+11,"Canara Bank",CABB,NB,Active
+12,"Canara Bank (Erstwhile - Syndicate Bank)",SYNDB,NB,Active
+13,"Capital Small Finance Bank Retail",CSFBR,NB,Active
+14,"Catholic Syrian Bank",CSBN,NB,Active
+15,"Central Bank of India",CBIB,NB,Active
+16,"Citi Bank",CITNB,NB,Active
+17,"City Union Bank",CUBB,NB,Active
+18,"Cosmos Bank",CSMSNB,NB,Active
+19,"DBS Bank",DBSB,NB,Active
+20,"DCB Bank",DCBB,NB,Active
+21,"Dena Bank",DENN,NB,Active
+22,"Deutsche Bank",DSHB,NB,Active
+23,"Dhanlaxmi Bank - Retail",DLSB,NB,Active
+24,"Federal Bank",FEDB,NB,Active
+25,"HDFC Bank",HDFB,NB,Active
+26,"ICICI Bank",ICIB,NB,Active
+27,"IDBI Bank",IDBB,NB,Active
+28,"IDFC FIRST Bank",IDFCNB,NB,Active
+29,"Indian Bank",INDB,NB,Active
+30,"Indian Bank (Erstwhile Allahabad Bank)",ALLB,NB,Active
+31,"Indian Overseas Bank",INOB,NB,Active
+32,"IndusInd Bank",INIB,NB,Active
+33,"ING Vyasa Bank",INGB,NB,Active
+34,"Jammu & Kashmir Bank",JAKB,NB,Active
+35,"Jana Small Finance Bank",JANANB,NB,Active
+36,"Janata Sahakari Bank Pune",JSBNB,NB,Active
+37,"Karnataka Bank",KRKB,NB,Active
+38,"Karur Vysya Bank",KRVB,NB,Active
+39,"Kotak Mahindra Bank",162B,NB,Active
+40,"Lakshmi Vilas Bank",LVRB,NB,Active
+41,"Lakshmi Vilas Bank",LVBD,NB,Active
+42,"Oriental Bank of Commerce",OBCB,NB,Active
+43,"Paytm Payments Bank",PAYTMNB,NB,Active
+44,"Post Office Savings Bank (POSB)",INDPOST,NB,Active
+45,"Punjab & Sind Bank",PSBNB,NB,Active
+46,"Punjab National Bank",PNBB,NB,Active
+47,"RBL Bank",RBL,NB,Active
+48,"RBL Bank",RBLNB,NB,Active
+49,"Royal Bank of Scotland",RYBS,NB,Active
+50,"Saraswat Bank",SRSWT,NB,Active
+51,"Shamrao Vithal Co-operative Bank Ltd.",SVCB,NB,Active
+52,"Shamrao Vithal Co-operative Bank Ltd.",SVCNB,NB,Active
+53,"South Indian Bank",SOIB,NB,Active
+54,"Standard Chartered Bank",SDCB,NB,Active
+55,"Standard Chartered Bank",SCBNB,NB,Active
+56,"State Bank of Bikaner and Jaipur",SBBJB,NB,Active
+57,"State Bank of Hyderabad",SBHB,NB,Active
+58,"State Bank of India",SBIB,NB,Active
+59,"State Bank of Mysore",SBMB,NB,Active
+60,"State Bank of Patiala",SBPB,NB,Active
+61,"State Bank of Travancore",SBTB,NB,Active
+62,"Syndicate Bank",SYDB,NB,Active
+63,"Tamilnad Mercantile Bank",TMBB,NB,Active
+64,"Test bank",TESTPGNB,NB,Active
+65,"The Nainital Bank",TBON,NB,Active
+66,"UCO Bank",UCOB,NB,Active
+67,"Union Bank of India",UBIB,NB,Active
+68,"Union Bank of India (Erstwhile Corporation Bank)",CRPB,NB,Active
+69,"United Bank of India",UNIB,NB,Active
+70,"Vijaya Bank",VJYB,NB,Active
+71,"Yes Bank",YESB,NB,Active

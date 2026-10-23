@@ -1,0 +1,15 @@
+{
+  "flowchart": {
+    "defaultRenderer": "elk",
+    "curve": "linear",
+    "padding": 25
+  },
+  "themeVariables": {
+    "background": "#1e1e1e",
+    "primaryTextColor": "#ffffff",
+    "lineColor": "#cccccc",
+    "fontSize": "14px",
+    "edgeLabelBackground": "#ffffff",
+    "edgeLabelText": "#000000"
+  }
+}

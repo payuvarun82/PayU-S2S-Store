@@ -1,0 +1,124 @@
+#,"Bank name","PayU bankcode",Mode,Status
+1,"Airtel Payments Bank",AIRNB,NB,Active
+2,"Andhra Bank",ADBB,NB,Active
+3,"Andhra NB TPV",ABNBTPV,NB,Active
+4,"AU Small Finance Bank",AUSFNB,NB,Active
+5,"AU Small Finance Bank - Corporate",AUSFCNB,NB,Active
+6,"AU Small Finance Bank TPV",AUNBTPV,NB,Active
+7,"AXIS Bank",AXIB,NB,Active
+8,"Axis Corporate Netbanking",AXISCNB,NB,Active
+9,"Axis NB TPV",AXNBTPV,NB,Active
+10,"Bandhan Bank",BANDNB,NB,Active
+11,"Bandhan Bank - TPV",BANDTPV,NB,Active
+12,"Bank of Bahrain & Kuwait",BBKB,NB,Active
+13,"Bank of Baroda",BBRB,NB,Active
+14,"Bank of Baroda - Corporate Banking",BBCB,NB,Active
+15,"Bank of Baroda - TPV",BBRNBTPV,NB,Active
+16,"Bank of India",BOIB,NB,Active
+17,"Bank of India TPV",BOINBTPV,NB,Active
+18,"Bank of Maharashtra",BOMB,NB,Active
+19,"Bhartiya Mahila Bank",BMNN,NB,Active
+20,"Canara Bank",CABB,NB,Active
+21,"Canara Bank (Erstwhile - Syndicate Bank)",SYNDB,NB,Active
+22,"Canara Bank TPV",CBNBTPV,NB,Active
+23,"Capital Small Finance Bank Corporate",CSFBC,NB,Active
+24,"Capital Small Finance Bank Retail",CSFBR,NB,Active
+25,"Catholic Syrian Bank",CSBN,NB,Active
+26,"Catholic Syrian Bank NB TPV",CSBNBTPV,NB,Active
+27,"CBI TPV",CBITPV,NB,Active
+28,"Central Bank of India",CBIB,NB,Active
+29,"Citi Bank",CITNB,NB,Active
+30,"City Union Bank",CUBB,NB,Active
+31,"City Union Bank TPV",CUBNBTPV,NB,Active
+32,"Cosmos Bank",CSMSNB,NB,Active
+33,"DBS Bank",DBSB,NB,Active
+34,"DCB Bank",DCBB,NB,Active
+35,"DCB Bank TPV",DCBNBTPV,NB,Active
+36,"Dena Bank",DENN,NB,Active
+37,"Deutsche Bank",DSHB,NB,Active
+38,"Dhanlaxmi Bank - Corporate",DLNBCORP,NB,Active
+39,"Dhanlaxmi Bank - Retail",DLSB,NB,Active
+40,"DLSB NB TPV",DLSNBTPV,NB,Active
+41,"Federal Bank",FEDB,NB,Active
+42,"Federal Bank Corporate",FEDCORP,NB,Active
+43,"Federal Bank TPV",FEDNBTPV,NB,Active
+44,"HDFC Bank",HDFB,NB,Active
+45,"HDFC Bank - Corporate Banking",HDFCCONB,NB,Active
+46,"HDFC NB - TPV",HDFNBTPV,NB,Active
+47,"ICICI Bank",ICIB,NB,Active
+48,"ICICI Corporate Netbanking",ICICICNB,NB,Active
+49,"ICICI NB TPV",ICINBTPV,NB,Active
+50,"IDBI Bank",IDBB,NB,Active
+51,"IDBI Bank TPV",IDBITPV,NB,Active
+52,"IDBI Corp Netbanking",IDBICORP,NB,Active
+53,"IDFC FIRST Bank",IDFCNB,NB,Active
+54,"IDFC FIRST Bank - TPV",IDFNBTPV,NB,Active
+55,"Indian Bank",INDB,NB,Active
+56,"Indian Bank (Erstwhile Allahabad Bank)",ALLB,NB,Active
+57,"Indian Bank TPV",INDBTPV,NB,Active
+58,"Indian Overseas Bank",INOB,NB,Active
+59,"Indian Overseas Bank - TPV",IOBNBTPV,NB,Active
+60,"IndusInd Bank",INIB,NB,Active
+61,"Indusind Bank - TPV",INIBTPV,NB,Active
+62,"ING Vyasa Bank",INGB,NB,Active
+63,"Jammu & Kashmir Bank",JAKB,NB,Active
+64,"Jana Small Finance Bank",JANANB,NB,Active
+65,"Janata Sahakari Bank Pune",JSBNB,NB,Active
+66,"Karnataka Bank",KRKB,NB,Active
+67,"Karnataka Bank TPV",KRKBTPV,NB,Active
+68,"Karur Vysya - Corporate Banking",KRVBC,NB,Active
+69,"Karur Vysya Bank",KRVB,NB,Active
+70,"Kotak Mahindra Bank",162B,NB,Active
+71,"Kotak Mahindra Bank - Corp NB",KTKBCORP,NB,Active
+72,"Kotak Mahindra Bank TPV",KTKNBTPV,NB,Active
+73,"KVB NB TPV",KVBNBTPV,NB,Active
+74,"Lakshmi Vilas Bank",LVRB,NB,Active
+75,"Lakshmi Vilas Bank",LVBD,NB,Active
+76,"Lakshmi Vilas Bank - Corporate Banking",LVCB,NB,Active
+77,"Oriental Bank of Commerce",OBCB,NB,Active
+78,"Oriental Bank of Commerce - TPV",OBCNBTPV,NB,Active
+79,"Paytm Payments Bank",PAYTMNB,NB,Active
+80,"Paytm Payments Bank TPV",PAYTMTPV,NB,Active
+81,"Post Office Savings Bank (POSB)",INDPOST,NB,Active
+82,"Punjab & Sind Bank",PSBNB,NB,Active
+83,"Punjab National Bank",PNBB,NB,Active
+84,"Punjab National Bank - Corporate Banking",CPNB,NB,Active
+85,"Punjab National Bank - TPV",PNBNBTPV,NB,Active
+86,"RBL Bank",RBL,NB,Active
+87,"RBL Bank",RBLNB,NB,Active
+88,"RBL Bank TPV",RBLTPV,NB,Active
+89,"RBL Corporate Netbanking",RBLCNB,NB,Active
+90,"Royal Bank of Scotland",RYBS,NB,Active
+91,"Saraswat Bank",SRSWT,NB,Active
+92,"Shamrao Vithal Co-operative Bank Ltd.",SVCB,NB,Active
+93,"Shamrao Vithal Co-operative Bank Ltd.",SVCNB,NB,Active
+94,"South Indian Bank",SOIB,NB,Active
+95,"South Indian Bank TPV",SIBNBTPV,NB,Active
+96,"Standard Chartered Bank",SDCB,NB,Active
+97,"Standard Chartered Bank",SCBNB,NB,Active
+98,"Standard Chartered Bank TPV",SCBNBTPV,NB,Active
+99,"State Bank of Bikaner and Jaipur",SBBJB,NB,Active
+100,"State Bank of Hyderabad",SBHB,NB,Active
+101,"State Bank of India",SBIB,NB,Active
+102,"State Bank of India (Corporate)",SBNCORP,NB,Active
+103,"State Bank Of India - TPV",SBINBTPV,NB,Active
+104,"State Bank of Mysore",SBMB,NB,Active
+105,"State Bank of Patiala",SBPB,NB,Active
+106,"State Bank of Travancore",SBTB,NB,Active
+107,"Syndicate Bank",SYDB,NB,Active
+108,"Tamilnad Mercantile Bank",TMBB,NB,Active
+109,"Test bank",TESTPGNB,NB,Active
+110,"The Nainital Bank",TBON,NB,Active
+111,"UCO Bank",UCOB,NB,Active
+112,"UCO Corporate",UCOCNB,NB,Active
+113,"UCO Corporate TPV",UCOCTPV,NB,Active
+114,"UCO NB TPV",UCONBTPV,NB,Active
+115,"Ujjivan TPV Bank",UJJTPV,NB,Active
+116,"Union Bank of India",UBIB,NB,Active
+117,"Union Bank of India (Erstwhile Corporation Bank)",CRPB,NB,Active
+118,"Union Bank of India TPV",UBIBTPV,NB,Active
+119,"Union Bank OLT - Corporate Banking",UBIBC,NB,Active
+120,"United Bank of India",UNIB,NB,Active
+121,"Vijaya Bank",VJYB,NB,Active
+122,"Yes Bank",YESB,NB,Active
+123,"Yes Bank - NB TPV",YESNBTPV,NB,Active

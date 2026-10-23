@@ -1,0 +1,69 @@
+%%{init: {'theme': 'base', 'themeVariables': {'background': '#1e1e1e', 'primaryTextColor': '#ffffff', 'lineColor': '#cccccc', 'fontSize': '14px', 'edgeLabelBackground': '#ffffff', 'edgeLabelText': '#111111'}}}%%
+flowchart TD
+    Start["Merchant Wants to Integrate"]
+    Docs["Access Docs, Plugins & Guides"]
+    Choose{"Choose Integration Method"}
+
+    Plugin["Plugin Integration:<br/>Shopify, WooCommerce, Magento"]
+    TSP["TSP Integration:<br/>Shopflo, Juspay, GoKwik"]
+    Hosted["Hosted Checkout"]
+
+    subgraph environments[" "]
+        direction LR
+        UAT["Setup UAT"]
+        Prod["Configure Production"]
+    end
+
+    Tests["Run Test Cases"]
+    Issues{"Any Issues?"}
+    FAQ["Refer FAQ, Docs & Sample Code"]
+    Resolved{"Resolved?"}
+    Support["Optional Support Assistance"]
+    Live["Go Live"]
+
+    Start --> Docs --> Choose
+    Choose --> Plugin
+    Choose --> TSP
+    Choose --> Hosted
+
+    Plugin --> UAT
+    Plugin --> Prod
+    TSP --> UAT
+    TSP --> Prod
+    Hosted --> UAT
+    Hosted --> Prod
+
+    UAT --> Tests
+    Prod --> Tests
+    Tests --> Issues
+    Issues -->|NO| Live
+    Issues -->|YES| FAQ --> Resolved
+    Resolved -->|YES| Live
+    Resolved -->|NO| Support
+
+    classDef startNode fill:#1d4ed8,stroke:#93c5fd,color:#ffffff,stroke-width:2px
+    classDef docsNode fill:#22d3ee,stroke:#67e8f9,color:#0f172a,stroke-width:2px
+    classDef decisionNode fill:#f97316,stroke:#fdba74,color:#ffffff,stroke-width:2px
+    classDef pluginNode fill:#7c3aed,stroke:#c4b5fd,color:#ffffff,stroke-width:2px
+    classDef tspNode fill:#db2777,stroke:#f9a8d4,color:#ffffff,stroke-width:2px
+    classDef hostedNode fill:#ea580c,stroke:#fdba74,color:#ffffff,stroke-width:2px
+    classDef uatNode fill:#0d9488,stroke:#5eead4,color:#ffffff,stroke-width:2px
+    classDef prodNode fill:#16a34a,stroke:#86efac,color:#ffffff,stroke-width:2px
+    classDef testNode fill:#2563eb,stroke:#93c5fd,color:#ffffff,stroke-width:2px
+    classDef faqNode fill:#ea580c,stroke:#fdba74,color:#ffffff,stroke-width:2px
+    classDef supportNode fill:#64748b,stroke:#cbd5e1,color:#ffffff,stroke-width:2px
+    classDef liveNode fill:#65a30d,stroke:#bef264,color:#ffffff,stroke-width:2px
+
+    class Start startNode
+    class Docs docsNode
+    class Choose,Issues,Resolved decisionNode
+    class Plugin pluginNode
+    class TSP tspNode
+    class Hosted hostedNode
+    class UAT uatNode
+    class Prod prodNode
+    class Tests testNode
+    class FAQ faqNode
+    class Support supportNode
+    class Live liveNode
+    style environments fill:none,stroke:none,color:transparent

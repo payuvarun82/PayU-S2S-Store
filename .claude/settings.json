@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__atlassian__atlassianUserInfo",
+      "mcp__atlassian__getAccessibleAtlassianResources",
+      "mcp__atlassian__getVisibleJiraProjects",
+      "Bash(python3 -m http.server 8080)",
+      "Bash(php -S localhost:8080)",
+      "Bash(curl -s -w \"\\\\nHTTP_CODE: %{http_code}\\\\n\" -u \"sunit.kumar1@payu.in:ATATT3xFfGF09YlIl-4Bs6L8G6eTxopxdgoD5qh1iOBnlhLpqlLHdvDOZYNehUPLHwuC9EeVwwSiJE-g0w3lAvvz5THGghmZpI2im8vm-KNzMVpzc0WJjFcdX03Y4-oCH9Yl83KOpRmYtSAqOSypt4MqrdJcDahLIV0895sFhClhtuhmNOp6aOw=50E5E86B\" -H \"Accept: application/json\" \"https://payuindia.atlassian.net/rest/api/3/search?jql=assignee%20%3D%20currentUser\\(\\)&maxResults=10\")",
+      "Bash(curl -s -w \"\\\\nHTTP_CODE: %{http_code}\\\\n\" -u \"sunit.kumar1@payu.in:ATATT3xFfGF09YlIl-4Bs6L8G6eTxopxdgoD5qh1iOBnlhLpqlLHdvDOZYNehUPLHwuC9EeVwwSiJE-g0w3lAvvz5THGghmZpI2im8vm-KNzMVpzc0WJjFcdX03Y4-oCH9Yl83KOpRmYtSAqOSypt4MqrdJcDahLIV0895sFhClhtuhmNOp6aOw=50E5E86B\" -H \"Accept: application/json\" -H \"Content-Type: application/json\" -X POST -d '{\"jql\":\"assignee = currentUser\\(\\) OR reporter = currentUser\\(\\) ORDER BY updated DESC\",\"maxResults\":10,\"fields\":[\"summary\",\"status\",\"priority\",\"issuetype\",\"assignee\",\"reporter\",\"created\",\"updated\"]}' \"https://payuindia.atlassian.net/rest/api/3/search/jql\")"
+    ]
+  }
+}

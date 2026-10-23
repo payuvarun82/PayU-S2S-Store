@@ -1,0 +1,1 @@
+{"type":"upi_intent","txnid":"TXN202608270552377302","intent_url":"gpay:\/\/upi\/pay?pa=payutest@hdfcbank&pn=&tr=613345778912958207&tid=PPPL6133457789129582072708261122376&am=4999.00&cu=INR&tn=UPIIntent","upi_app":"gpay","amount":"4999.00","expires":1787810138}

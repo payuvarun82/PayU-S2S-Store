@@ -1,0 +1,1 @@
+{"type":"upi_intent","txnid":"TXN202610091352344955","intent_url":"upi:\/\/pay?pa=payutest@hdfcbank&pn=&tr=613345778913411663&tid=PPPL6133457789134116630910261922356&am=4999.00&cu=INR&tn=UPIIntent&url=http%3A%2F%2F192.168.1.7%3A8083%2Fpayment-confirming.php%3Ftxnid%3DTXN202610091352344955","upi_app":"generic","amount":"4999.00","expires":1791554555}

@@ -1,0 +1,34 @@
+.edgeLabel {
+  overflow: visible !important;
+}
+
+.edgeLabel span,
+.edgeLabel .label,
+.edgeLabel p {
+  color: #000000 !important;
+  background-color: #ffffff !important;
+  font-size: 12px !important;
+  font-weight: 700 !important;
+  font-family: Arial, sans-serif !important;
+  padding: 1px 4px !important;
+  white-space: nowrap !important;
+}
+
+.edgeLabel rect {
+  fill: #ffffff !important;
+  stroke: #666666 !important;
+  stroke-width: 1px !important;
+  width: 20px !important;
+  height: 18px !important;
+  rx: 2px !important;
+}
+
+.edgeLabel foreignObject {
+  overflow: visible !important;
+}
+
+.edgeLabel foreignObject div {
+  width: auto !important;
+  min-width: 18px !important;
+  text-align: center !important;
+}

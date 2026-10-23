@@ -1,0 +1,1 @@
+{"type":"upi_intent","txnid":"TXN202610220855427266","intent_url":"upi:\/\/pay?pa=Sssgle.payu@mairtel&pn=company&tr=31428427579&tid=PPPL314284275792210261425436ad9cf8f&am=1.00&cu=INR&tn=UPIIntent&url=http%3A%2F%2F172.23.226.115%3A8083%2Fpayment-confirming.php%3Ftxnid%3DTXN202610220855427266","upi_app":"generic","amount":"1.00","expires":1792659943}

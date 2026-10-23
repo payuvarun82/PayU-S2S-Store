@@ -1,0 +1,54 @@
+flowchart TD
+    Start([Start Merchant Onboarding]) --> SignUp
+
+    subgraph Phase1["Phase 1: Account Registration"]
+        SignUp[Go to onboarding.payu.in/app/account]
+        SignUp --> EnterDetails[Enter Email, Password, Mobile<br/>Website URL optional<br/>Monthly expected sales]
+        EnterDetails --> SendOTP[Send OTP and Create Account]
+        SendOTP --> VerifyOTP[Verify Mobile OTP]
+        VerifyOTP --> ConfirmReg[Confirm Registration]
+    end
+
+    ConfirmReg --> TestKeys[Test Key and Salt Available Immediately]
+    ConfirmReg --> Login[Login to PayU Dashboard]
+
+    subgraph Phase2["Phase 2: Account Activation / KYC"]
+        Login --> Activate[Click Activate Account<br/>or Complete your Onboarding]
+        Activate --> PAN[PAN Verification<br/>Enter Business PAN]
+        PAN --> Business[Business Details<br/>Category, Sub-category<br/>GSTIN optional, Expected sales]
+        Business --> Bank[Bank Details<br/>Account Number + IFSC<br/>Connect Bank Account]
+        Bank --> PaymentMode{How do you accept payments?}
+
+        PaymentMode -->|Website / App| WebsiteURLs[Enter Website / Android / iOS URLs]
+        PaymentMode -->|No website| NoCode[Use Payment Links<br/>Invoices or Buttons]
+
+        WebsiteURLs --> SigningAuth
+        NoCode --> SigningAuth
+
+        SigningAuth[Verify Signing Authority<br/>Name, PAN, Email]
+        SigningAuth --> KYCMethod{Complete KYC via}
+
+        KYCMethod -->|cKYC| CKYC[Enter DOB / Incorporation Date<br/>Authorize PayU]
+        KYCMethod -->|Aadhaar| Aadhaar[Accept Aadhaar T&C<br/>Submit]
+        KYCMethod -->|Manual| Manual[Enter Address Details<br/>Operating address if different]
+
+        CKYC --> AddDocs
+        Aadhaar --> AddDocs
+        Manual --> AddDocs
+
+        AddDocs[Additional Documents if required<br/>PAN, Address Proof<br/>Business / Govt certificate]
+        AddDocs --> Agreement[Download and Accept<br/>Service Agreement]
+    end
+
+    Agreement --> Review[PayU Reviews KYC<br/>Few days to few weeks]
+
+    subgraph Phase3["Phase 3: Go Live"]
+        Review --> WebsiteCheck{Website provided?}
+        WebsiteCheck -->|Yes| ValidateSite[Website Validation]
+        WebsiteCheck -->|No| ProdKeys
+        ValidateSite --> ProdKeys[Get Production Key and Salt]
+        ProdKeys --> Integrate[Integrate PayU<br/>Hosted Checkout / S2S / SDK]
+        Integrate --> Live([Account Live<br/>Start Accepting Payments])
+    end
+
+    TestKeys -.->|Test integration<br/>without full KYC| Integrate

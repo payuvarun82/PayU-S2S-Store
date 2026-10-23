@@ -1,0 +1,13 @@
+flowchart TD
+    KYCStart[Proceed to KYC] --> Choose{Choose KYC method}
+
+    Choose -->|Option 1| CKYC[Fetch from cKYC<br/>DOB + Consent]
+    Choose -->|Option 2| Aadhaar[Fetch from Aadhaar<br/>Accept T&C]
+    Choose -->|Option 3| Manual[Upload Manually<br/>Name, Address, City, State, Pincode]
+
+    CKYC --> Docs[Additional Documents]
+    Aadhaar --> Docs
+    Manual --> Docs
+
+    Docs --> Submit[Submit Documents]
+    Submit --> Done([KYC Submitted])

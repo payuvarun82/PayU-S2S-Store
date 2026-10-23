@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <rect width="48" height="48" rx="10" fill="#00BAF2"/>
+  <!-- Paytm wordmark in white -->
+  <text x="24" y="21" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="900" letter-spacing="1" fill="#fff">PAY</text>
+  <text x="24" y="33" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="900" letter-spacing="1" fill="#fff">TM</text>
+  <!-- Underline accent -->
+  <rect x="12" y="36" width="24" height="2" rx="1" fill="#fff" opacity=".5"/>
+</svg>
